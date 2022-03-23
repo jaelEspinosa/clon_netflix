@@ -1,0 +1,33 @@
+.top{
+
+h2{
+
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.topGallery{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  &__item{
+    display: flex;
+    align-items: center;
+    p{
+      font-size: 230px;
+      position:relative;
+      font-weight: bold;
+      left:40px;
+      text-shadow: -4px -4px 0 grey, 4px -4px 0 grey, -4px 4px 0 grey,
+
+    }
+    img{
+      width: 130px;
+      z-index: 1;
+    }
+  }
+}
+
+}
+
+

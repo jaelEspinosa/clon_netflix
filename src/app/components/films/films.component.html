@@ -1,0 +1,10 @@
+
+<section class = "gallery">
+<h5 class = "gallery-title" >{{comedyFilms.section}}</h5>
+    <ul class= "gallery-list" >
+      <li class= "gallery-list__item" *ngFor="let element of comedyFilms.films">
+          <img src="{{element.image}}" alt="{{element.title}}">
+      </li>
+    </ul>
+    
+</section>

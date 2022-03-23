@@ -1,0 +1,32 @@
+.nav{
+
+   height: 10vh;
+   display:flex;
+
+   .nav-left{
+       padding: 15px;
+       width: 50%;
+       display:flex;
+       align-items: center;
+       gap:20px;
+       &__logo{
+          width: 15vw;
+          max-width: 80px;
+
+       }
+   }
+   .nav-rigth{
+       padding: 15px;
+       width: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: flex-end;
+       gap:20px;
+       a:hover{color:red;}
+       button{
+         border:1px solid gray;
+         border-radius: 10px;
+         padding:5px;
+       }
+   }
+}
