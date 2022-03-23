@@ -9,6 +9,7 @@ h2{
 .topGallery{
   display:flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   &__item{
     display: flex;
