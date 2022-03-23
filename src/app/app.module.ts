@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { FilmsComponent } from './components/films/films.component';
-import { FooterComponent } from './components/footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
     NavComponent,
     HeroComponent,
     FilmsComponent,
-    FooterComponent
+
   ],
   imports: [
     BrowserModule
